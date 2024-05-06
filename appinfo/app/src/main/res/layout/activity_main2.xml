@@ -1,0 +1,287 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/m"
+    tools:context=".MainActivity">
+
+
+    <!-- Your layout content here -->
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBFBFB"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="361dp"
+        android:layout_height="444dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="171dp"
+        android:background="@drawable/rounded_box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="78dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="335dp"
+        android:layout_marginBottom="668dp"
+        app:srcCompat="@mipmap/bz" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="148dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="266dp"
+        android:layout_marginBottom="1013dp"
+        android:text="SIGN-UP"
+        android:textSize="24sp"
+        tools:fontFamily="cursive" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="86dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="548dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        tools:fontFamily="sans-serif-smallcaps" />
+
+
+    <EditText
+        android:id="@+id/nameedit"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="520dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Enter name"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:fontFamily="sans-serif" />
+
+
+    <TextView
+        android:id="@+id/textpass"
+        android:layout_width="123dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="453dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="E-Mail"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        tools:fontFamily="sans-serif-smallcaps" />
+
+    <EditText
+        android:id="@+id/editTextTextPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="444dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        tools:fontFamily="sans-serif" />
+
+
+    <TextView
+        android:id="@+id/textViewppl"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="378dp"
+        android:fontFamily="sans-serif"
+
+
+        android:text="Phone no"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        tools:fontFamily="sans-serif-smallcaps" />
+
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="360dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Enter phone number"
+        android:inputType="phone"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:id="@+id/dom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="301dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Gender"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        tools:fontFamily="sans-serif-smallcaps" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="223dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Age"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        tools:fontFamily="sans-serif-smallcaps" />
+
+    <EditText
+        android:id="@+id/editTextPhone2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="207dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Enter age"
+        android:inputType="phone"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="276dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Male/Female"
+        android:inputType="text"
+        android:textColor="#000000" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="93dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Sign-Up"
+        android:textSize="34sp"
+        tools:background="#0C0808"
+        tools:fontFamily="sans-serif-smallcaps" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="837dp"
+        android:fontFamily="cursive"
+        android:text="SIGN-UP"
+        android:textSize="34sp" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="675dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="BizExpense Tracker"
+        tools:textSize="24sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rounded_box" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rounded_box" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/blackbox" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="91dp"
+        android:text="Already Registerd?" />
+
+
+</RelativeLayout>

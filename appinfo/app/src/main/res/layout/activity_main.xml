@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkblue"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="539dp"
+        android:layout_height="298dp"
+        app:srcCompat="@mipmap/page1_3"
+        tools:layout_editor_absoluteX="-75dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="530dp"
+        android:layout_height="496dp"
+        app:srcCompat="@mipmap/page1_2"
+        tools:layout_editor_absoluteX="-42dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="392dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="595dp"
+        android:text="BiZexpense Tracker"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="374dp"
+        android:layout_height="142dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="426dp"
+        android:text="Expense tracking means recording all your expenditures
+        so you have a clear and detailed understanding of your budget.
+        This is typically done for a certain project or over a certain period,
+         so you can stay on budget and make any necessary adjustments."
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="252dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="163dp"
+        android:text="GET STARTED"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+</RelativeLayout>

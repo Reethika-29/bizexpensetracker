@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggk">
+
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bggk" />
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBFBFB"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <!-- Transparent overlay to make text readable -->
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="77dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="334dp"
+        app:srcCompat="@mipmap/bz" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="232dp"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="664dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="BIZEXPENSE TRACKER"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="116dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="555dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#FFFFFF"
+        android:text="Expense"
+        android:textColor="#000000" />
+
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="555dp"
+        android:background="@drawable/shape"
+        android:text="Investment"
+        android:textColor="#000000" />
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="116dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="553dp"
+        android:background="@drawable/shape"
+        android:text="Revenue"
+        android:textColor="#000000" />
+
+
+    <!-- RecyclerView below Toolbar -->
+
+
+</RelativeLayout>
+

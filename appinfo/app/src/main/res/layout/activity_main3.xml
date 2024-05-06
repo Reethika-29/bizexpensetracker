@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/pig"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBFBFB"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="670dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="BizExpense Tracker"
+        tools:textSize="24sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="78dp"
+        android:layout_height="63dp"
+        app:srcCompat="@mipmap/bz" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/menu3line" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="359dp"
+        android:layout_height="409dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="177dp"
+        android:background="@drawable/rounded_box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/teamname"
+        android:layout_width="141dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="535dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:imeOptions="actionNext"
+        android:text="Team Name"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        tools:fontFamily="sans-serif-smallcaps" />
+
+
+    <TextView
+        android:id="@+id/textpass"
+        android:layout_width="222dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="428dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Team Password"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        tools:fontFamily="sans-serif-smallcaps"
+        android:imeOptions="actionNext"/>
+
+
+    <TextView
+        android:id="@+id/textViewppl"
+        android:layout_width="244dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="327dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Number of People"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        tools:fontFamily="sans-serif-smallcaps"
+        android:imeOptions="actionNext"/>
+
+
+    <TextView
+        android:id="@+id/dom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="262dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Type of Domain"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        tools:fontFamily="sans-serif-smallcaps"
+        android:imeOptions="actionNext"/>
+
+
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="159dp"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="74dp"
+        android:backgroundTint="#8BC34A"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Create"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="156dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="77dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="cancel"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/nameedit"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="499dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:textColor="#000000" />
+
+
+    <EditText
+        android:id="@+id/editTextno"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="320dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:textColor="#070707" />
+
+
+    <EditText
+        android:id="@+id/editTextdom"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="230dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:textColor="#000000" />
+
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="408dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:textColor="#070707" />
+
+
+
+
+</RelativeLayout>
+
+
+

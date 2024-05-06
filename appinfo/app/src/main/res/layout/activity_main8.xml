@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coin"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBFBFB"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="670dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="BizExpense Tracker"
+        tools:textSize="24sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="78dp"
+        android:layout_height="63dp"
+        app:srcCompat="@mipmap/bz" />
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="340dp"
+        android:layout_height="369dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/rounded_box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="402dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Team Name"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        tools:fontFamily="sans-serif-smallcaps" />
+
+
+    <EditText
+        android:id="@+id/nameedit"
+        android:layout_width="209dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="362dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="Enter name"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:fontFamily="sans-serif-smallcaps" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="288dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Team Password"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        tools:fontFamily="sans-serif-smallcaps" />
+
+
+    <CheckBox
+        android:id="@+id/checkBoxShowPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="195dp"
+        android:background="@drawable/rounded_edittext"
+        android:checked="false"
+        android:text="Show Password" />
+
+
+    <EditText
+        android:id="@+id/passedit"
+        android:layout_width="209dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="246dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="Enter name"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:fontFamily="sans-serif-smallcaps" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="56dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Login"
+        android:textSize="34sp"
+        tools:background="#0C0808"
+        tools:fontFamily="sans-serif-smallcaps" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="58dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="cancel"
+        android:textSize="34sp"
+        tools:background="#0C0808"
+        tools:fontFamily="sans-serif-smallcaps" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,165 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/pig">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:titleTextColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="409dp"
+            android:layout_height="737dp"
+            android:src="@mipmap/bz"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-3dp" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="57dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/menu3line" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="107dp"
+            android:layout_height="59dp"
+            app:srcCompat="@mipmap/bz"
+            tools:layout_editor_absoluteX="-25dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Investment"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Revenue"
+            tools:layout_editor_absoluteX="277dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <Button
+            android:id="@+id/firstButton"
+            android:layout_width="148dp"
+            android:layout_height="50dp"
+            android:text="Enter Details"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="246dp" />
+
+        <RelativeLayout
+            android:id="@+id/dialogLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstButton"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:background="#FFFFFF"
+            android:padding="20dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/enterNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Enter Name:"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/enterNameTextView"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Enter Name"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/enterAmountTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameEditText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Enter Amount:"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/amountEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/enterAmountTextView"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Enter Amount"
+                android:padding="10dp" />
+
+            <!-- Close Button -->
+            <Button
+                android:id="@+id/closeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/amountEditText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Close" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@id/button7"
+            android:layout_width="151dp"
+            android:layout_height="52dp"
+            android:text="Save Details"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="313dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
